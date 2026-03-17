@@ -184,7 +184,7 @@ const Hero = () => {
           >
             <div className="relative">
               <Image
-                src="/car_v2.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/car_v2.png`}
                 alt="Car"
                 width={800}
                 height={400}
