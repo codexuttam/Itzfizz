@@ -84,7 +84,7 @@ export default function Home() {
           ))}
         </div>
         <button className="relative group px-8 py-2.5 bg-accent text-black text-[10px] font-black uppercase tracking-widest rounded-md transition-all hover:shadow-[0_0_25px_rgba(190,242,100,0.6)] overflow-hidden">
-          <span className="relative z-10">Get Started</span>
+          <span className="relative z-10">Request Access</span>
           <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
         </button>
       </nav>
