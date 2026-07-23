@@ -131,7 +131,7 @@ const Hero = () => {
       ref={sectionRef}
       className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-background perspective-2000 z-0"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(16,185,129,0.1)_0%,transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(16,185,129,0.12)_0%,transparent_70%)]" />
 
       {/* Scattered Stat Cards */}
       <div className="absolute inset-0 pointer-events-none z-40">
@@ -167,7 +167,7 @@ const Hero = () => {
           <div className="relative z-10 w-full px-8 md:px-24">
             <h1
               ref={headlineRef}
-              className="text-[8vw] md:text-[7.5vw] font-black tracking-[-0.06em] leading-none flex justify-start gap-[0.3vw] md:gap-[0.5vw] select-none italic"
+              className="text-[8vw] md:text-[7.5vw] font-black tracking-[-0.08em] leading-none flex justify-start gap-[0.3vw] md:gap-[0.5vw] select-none italic drop-shadow-[0_0_30px_rgba(190,242,100,0.12)]"
             >
               {headline.split("").map((char, i) => (
                 <span key={i} className="char inline-flex text-white relative preserve-3d">
