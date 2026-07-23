@@ -120,7 +120,7 @@ export default function Home() {
               </div>
 
               <p ref={descRef} className="text-zinc-400 text-xl md:text-2xl leading-relaxed max-w-xl font-medium tracking-tight">
-                Pioneering high-velocity risk management with <span className="text-white font-bold">formal verification</span> and autonomous threat mitigation at scale.
+                Pioneering high-velocity risk management with <span className="text-white font-bold">formal verification</span>, autonomous threat mitigation, and resilient control planes built for live operations.
               </p>
 
               <div className="flex flex-wrap gap-6 pt-4">
